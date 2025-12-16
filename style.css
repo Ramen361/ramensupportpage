@@ -4,7 +4,7 @@ body {
     line-height: 1.75; /* slightly more spacing */
     margin: 0;
     padding: 0;
-    background-color: #a75a1b;
+    background-color: #411d00;
     color: #000000;
     font-size: 18px; /* slightly bigger text */
 }
@@ -19,15 +19,15 @@ header {
 /* Section styling */
 section {
     padding: 50px 20px;
-    border-bottom: 1px solid #9e5e0a;
-    background-color: #dc7012;
+    border-bottom: 1px solid #411d00;
+    background-color: #6e3707;
     text-align: center; /* center everything in sections */
 }
 
 /* Headings */
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #ca6403ca;
+    color: #000000ca;
     margin-top: 0;
 }
 
