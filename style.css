@@ -4,14 +4,14 @@ body {
     line-height: 1.75; /* slightly more spacing */
     margin: 0;
     padding: 0;
-    background-color: #FEFEFF;
+    background-color: #a75a1b;
     color: #000000;
     font-size: 18px; /* slightly bigger text */
 }
 
 /* Header */
 header {
-    background-color: #BFE1FF;
+    background-color: #4e2802;
     padding: 40px 20px;
     text-align: center;
 }
@@ -19,15 +19,15 @@ header {
 /* Section styling */
 section {
     padding: 50px 20px;
-    border-bottom: 1px solid #6CC9FE;
-    background-color: #E6F4FF;
+    border-bottom: 1px solid #9e5e0a;
+    background-color: #dc7012;
     text-align: center; /* center everything in sections */
 }
 
 /* Headings */
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #215573;
+    color: #ca6403ca;
     margin-top: 0;
 }
 
@@ -46,7 +46,7 @@ p {
 }
 
 #nav-buttons button {
-    background-color: #BFE1FF;
+    background-color: #ffb37c;
     color: #000000;
     border: none;
     padding: 14px 28px;
@@ -58,13 +58,13 @@ p {
 }
 
 #nav-buttons button:hover {
-    background-color: #C5D8FF;
+    background-color: #ffffff;
     transform: scale(1.05);
 }
 
 /* Social buttons */
 a button {
-    background-color: #C5D8FF;
+    background-color: #f9d5b0;
     color: #000000;
     border: none;
     padding: 14px 28px;
@@ -76,7 +76,7 @@ a button {
 }
 
 a button:hover {
-    background-color: #BFE1FF;
+    background-color: #f7b36b;
     transform: scale(1.05);
 }
 
