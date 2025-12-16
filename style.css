@@ -1,0 +1,145 @@
+/* Body & text */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFF;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #BFE1FF;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #6CC9FE;
+    background-color: #E6F4FF;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #215573;
+    margin-top: 0;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* NAVIGATION BUTTONS */
+#nav-buttons {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nav-buttons button {
+    background-color: #BFE1FF;
+    color: #000000;
+    border: none;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#nav-buttons button:hover {
+    background-color: #C5D8FF;
+    transform: scale(1.05);
+}
+
+/* Social buttons */
+a button {
+    background-color: #C5D8FF;
+    color: #000000;
+    border: none;
+    padding: 12px 25px;
+    margin: 5px 5px 0 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+a button:hover {
+    background-color: #BFE1FF;
+    transform: scale(1.05);
+}
+
+/* About Me Centering & Avatar */
+#about {
+    text-align: center; /* center heading and text */
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#about p {
+    display: inline-block;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Server widget container */
+#server-widget {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#server-widget iframe {
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+/* FOOTER */
+footer p {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    section {
+        padding: 25px 15px;
+    }
+
+    #nav-buttons button, a button {
+        width: 100%;
+        max-width: 300px;
+        margin: 5px auto;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
