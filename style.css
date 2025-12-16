@@ -1,25 +1,27 @@
 /* Body & text */
 body {
     font-family: 'Lato', sans-serif;
-    line-height: 1.6;
+    line-height: 1.75; /* slightly more spacing */
     margin: 0;
     padding: 0;
     background-color: #FEFEFF;
     color: #000000;
+    font-size: 18px; /* slightly bigger text */
 }
 
 /* Header */
 header {
     background-color: #BFE1FF;
-    padding: 30px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 /* Section styling */
 section {
-    padding: 40px 20px;
+    padding: 50px 20px;
     border-bottom: 1px solid #6CC9FE;
     background-color: #E6F4FF;
+    text-align: center; /* center everything in sections */
 }
 
 /* Headings */
@@ -31,13 +33,13 @@ h1, h2, h3 {
 
 /* Paragraphs */
 p {
-    margin-bottom: 15px;
+    margin-bottom: 18px; /* slightly bigger spacing */
 }
 
 /* NAVIGATION BUTTONS */
 #nav-buttons {
     text-align: center;
-    margin: 20px 0;
+    margin: 25px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -47,11 +49,11 @@ p {
     background-color: #BFE1FF;
     color: #000000;
     border: none;
-    padding: 12px 25px;
+    padding: 14px 28px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px; /* slightly bigger buttons */
     transition: all 0.3s ease;
 }
 
@@ -65,11 +67,11 @@ a button {
     background-color: #C5D8FF;
     color: #000000;
     border: none;
-    padding: 12px 25px;
+    padding: 14px 28px;
     margin: 5px 5px 0 0;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px;
     transition: all 0.3s ease;
 }
 
@@ -78,68 +80,77 @@ a button:hover {
     transform: scale(1.05);
 }
 
-/* About Me Centering & Avatar */
-#about {
-    text-align: center; /* center heading and text */
-}
-
+/* About Me Avatar */
 #about img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 25px auto;
 }
 
 #about p {
     display: inline-block;
+    max-width: 650px;
     text-align: center;
-    max-width: 600px;
 }
 
-/* Server widget container */
-#server-widget {
-    text-align: center;
-    padding: 40px 20px;
+/* Interests & GitHub Card */
+.interests-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
+.interests-text, .github-card {
+    max-width: 450px;
+    text-align: left;
+}
+
+/* Server widget */
 #server-widget iframe {
     border-radius: 10px;
     max-width: 350px;
 }
 
-/* FOOTER */
+/* Footer */
 footer p {
     text-align: center;
-    padding: 20px;
-    font-size: 14px;
+    padding: 25px;
+    font-size: 16px;
 }
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
+    body {
+        font-size: 17px; /* slightly bigger on mobile */
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
     section {
-        padding: 25px 15px;
+        padding: 35px 15px;
     }
 
     #nav-buttons button, a button {
         width: 100%;
         max-width: 300px;
-        margin: 5px auto;
+        margin: 7px auto;
     }
 
-    body {
-        font-size: 16px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    h3 {
-        font-size: 18px;
+    .interests-text, .github-card {
+        max-width: 100%;
+        text-align: center;
     }
 }
